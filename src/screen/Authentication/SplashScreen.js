@@ -38,9 +38,10 @@ export default class SplashScreen extends Component {
           textStyle={styles.SpinnerText}
         />
  
-        <Text style={styles.text}>
-          Spinner Overlay Example Tutorial in React Native
-        </Text>
+       <Image
+        style={styles.tinyLogo}
+        source={require('../assets/Images/image.png')}
+      />
           
       </View>
   );
